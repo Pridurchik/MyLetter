@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="welcome">Добро Пожаловать!</string>
+    <string name="In_acc">Введите cвой mail</string>
+    <string name="Pass">Введите пароль</string>
+    <string name="enter_mail">Введите свой майл</string>
+    <string name="enter_pass">Введите пароль</string>
+    <string name="confirm_pass">Подтвердите пароль</string>
+    <string name="In_Account">Войти в аккаунт</string>
+    <string name="Regist_Account">Зарегистрироваться</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="empty_line">Одно из полей вас пустое, пожалуйста заполните его</string>
+    <string name="pass_to_pass">Введённые пароли различны, введите ещё раз</string>
+    <string name="error">Что то пошло не так...</string>
+    <string name="create_acc">Созать аккаунт</string>
+    <string name="Letter">Letter</string>
+    <string name="write_name">Введите своё имя</string>
+    <string name="write_surname">Введите свою фамилию</string>
+    <string name="write_nickname">Введите желаемый ник</string>
+    <string name="next">Дальше</string>
+    <string name="empty">Убедитесь что вы ввели все данные</string>
+    <string name="enter_pass_two">Потвердите пароль</string>
+    <string name="ResestPass">Забыли пароль</string>
+    <string name="cont">Продолжить</string>
+    <string name="send_res_mail">На вашу почту было отправлено потвержадающее письмо</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

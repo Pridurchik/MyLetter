@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/wheat">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo_top"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/settings"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:onClick="InSetting"/>
+    </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/text_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="140dp"
+            android:textSize="38sp"
+            android:fontFamily="@font/matricha"
+            android:textColor="@color/black"
+            android:text="@string/welcome"/>
+
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="@string/In_Account"
+            android:textSize="18dp"
+            android:onClick="InAccount"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Regist_Account"
+            android:textSize="18dp"
+            android:onClick="RegistAcc"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+
+<!--    style="?android:attr/borderlessButtonStyle"-->
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/forgot_password"
+            android:textColor="@color/blue"
+            android:textSize="13dp"
+            android:onClick="InResPass"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"/>
+
+</FrameLayout>

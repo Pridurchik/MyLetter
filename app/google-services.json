@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "858478203534",
+    "firebase_url": "https://letter-aed90-default-rtdb.firebaseio.com",
+    "project_id": "letter-aed90",
+    "storage_bucket": "letter-aed90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858478203534:android:f6b00c735af68246cf2fdf",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858478203534-g8h4pf6thq7fu5b5mtsiauuoel9s7ile.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3SBbvgEd5nJKq7lLKCZQvsboYU3YGKow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858478203534-bot1brc4upl2dai6isguhv067nltkmih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
